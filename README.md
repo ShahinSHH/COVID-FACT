@@ -41,7 +41,7 @@ Make sure to have torch installed in your system. Otherwise you can't use the lu
 
 ## Code
 The code for the Capsule Network implementation is adopted from <a href="https://keras.io/examples/cifar10_cnn_capsule/">here.</a>
-The brief desciption of the code is as follows:
+The brief desciption of the code's functionality is as follows:
 * The code aims to test a CT scan using the COVID-FACT model.
 * The training code is not provided. However, the code to implement each stage of the model is available in the code
 * The outcome is in the binary (COVID-19, non-COVID) format.
