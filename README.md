@@ -41,10 +41,17 @@ Make sure to have torch installed in your system. Otherwise you can't use the lu
 
 ## Code
 The code for the Capsule Network implementation is adopted from <a href="https://keras.io/examples/cifar10_cnn_capsule/">here.</a>
+The brief desciption of the code is as follows:
+The code aims to test a CT scan using the COVID-FACT model.
+The training code is not provided. However, the code to implement each stage of the model is available in the code
+The outcome is in the binary (COVID-19, non-COVID) format.
+The test data should be in the DICOM format, and all DICOM files corresponding to a CT scan should be located in one folder.
 
 Codes are available as the following list:
 
-* pre-train.py : Codes for pre-training
+* COVID-FACT_binary_test.py : Codes for testing a CT scan series
+* weights-stage1-final-91.h5 : Trained weight of the stage one
+* weights-stage2-final-99.h5 : Trained weight of the stage Two
 
 
 ## Citation
