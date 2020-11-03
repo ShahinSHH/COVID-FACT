@@ -8,6 +8,9 @@ COVID-FACT is fed with the segmented lung area as the input. In other words, ins
 
 The detailed COVID-Facts's structure and methodology is explained in detail at https://arxiv.org/abs/2010.16041 .
 
+<h3>Note : Please don’t use COVID-FACT as the self-diagnostic model without performing a clinical study and consulting with a medical specialist.</h3>
+COVID-FACT is not a replacement for clinical diagnostic tests and should not be used as a self-diagnosis tool to look for COVID-19 features without a clinical study at this stage. Our team is working on enhancing the performance and generalizing the model on multi-center datasets upon receiving more data from medical collaborators and scientific community. You can track new results and versions as they will be updated on this page.<br>
+
 <img src="https://github.com/ShahinSHH/COVID-FACT/blob/main/Figures/method.jpg"/>
 
 
