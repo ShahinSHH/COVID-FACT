@@ -14,7 +14,7 @@ COVID-FACT is not a replacement for clinical diagnostic tests and should not be 
 <img src="https://github.com/ShahinSHH/COVID-FACT/blob/main/Figures/method.jpg"/>
 
 ## Dataset
-The publically available <a href="https://github.com/ShahinSHH/COVID-CT-MD">COVID-CT-MD dataset is used to train/test the model</a>.
+The publically available <a href="https://github.com/ShahinSHH/COVID-CT-MD">COVID-CT-MD dataset</a> is used to train/test the model.
 This dataset contains volumetric chest CT scans of 171 patients positive for COVID-19 infection, 60 patients with CAP (Community Acquired Pneumonia), and 76 normal patients. Slice-Level labels (slices with the evidence of infection) are provided in this dataset.
 
 For the detail description of the COVID-CT-MD dataset, please refer to the <a href="https://arxiv.org/abs/2009.14623">https://arxiv.org/abs/2009.14623</a>.
@@ -37,7 +37,7 @@ The brief desciption of the code's functionality is as follows:
 
 Codes are available as the following list:
 
-* COVID-FACT_binary_test.py : Codes for testing a CT scan series (Set the "data_path" in the very begining of the code based on your data directoy.)
+* COVID-FACT_binary_test.py : Codes for testing a CT scan series (Set the "data_path" at the very begining of the code based on your data directoy.)
 * weights-stage1-final-91.h5 : Trained weight of the stage one
 * weights-stage2-final-99.h5 : Trained weight of the stage Two
 
