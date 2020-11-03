@@ -48,6 +48,7 @@ Codes are available as the following list:
 * PyTorch 1.4.0
 * Torch 1.5.1
 * PyDicom 1.4.2
+* SimpleITK (<a href="https://simpleitk.readthedocs.io/en/v1.1.0/Documentation/docs/source/installation.html">Installation</a>)
 * lungmask
 * OpenCV
 * OS
