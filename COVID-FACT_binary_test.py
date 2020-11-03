@@ -33,6 +33,9 @@ import cv2
 from lungmask import mask #lung segmentation model
 import SimpleITK as sitk
 
+# Set the path based on your data directory
+data_path = r'Path to the folder including dicom files/'
+
 K.set_image_data_format('channels_last')
 
 def squash(x, axis=-1):
@@ -292,7 +295,6 @@ model2.summary()
 model2.load_weights('weights-stage2-final-99.h5') 
 
 #%%
-data_path = r'/Users/shahinheidarian/Python Files/Corona/Annotation-SliceClassification/COVID-19 subjects/P112/'
 # lstFolders = sorted(os.listdir(data_path))
 model = mask.get_model('unet','R231CovidWeb')
 
