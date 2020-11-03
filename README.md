@@ -37,7 +37,7 @@ The brief desciption of the code's functionality is as follows:
 
 Codes are available as the following list:
 
-* COVID-FACT_binary_test.py : Codes for testing a CT scan series (Set the "data_path" at the very begining of the code based on your data directoy.)
+* COVID-FACT_binary_test.py : Codes for testing a CT scan series <b>(Set the "data_path" at the very begining of the code based on your data directoy.)</b>
 * weights-stage1-final-91.h5 : Best model's weight for the first stage
 * weights-stage2-final-99.h5 : Best model's weight for the second stage
 
