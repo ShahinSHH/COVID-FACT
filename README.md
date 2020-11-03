@@ -19,18 +19,6 @@ This dataset contains volumetric chest CT scans of 171 patients positive for COV
 
 For the detail description of the COVID-CT-MD dataset, please refer to the <a href="https://arxiv.org/abs/2009.14623">https://arxiv.org/abs/2009.14623</a>.
 
-## Requirements
-* Tested with (tensorflow-gpu 2 and keras-gpu 2.2.4) - and (tensorflow 1.14.0 and keras 2.2.4)<br>
--- Try tensorflow.keras instead of keras if it doesn't work in your system.
-* Python 3.6
-* PyTorch 1.4.0
-* Torch 1.5.1
-* PyDicom 1.4.2
-* lungmask
-* OpenCV
-* OS
-* Matplotlib
-
 ## Lung Segmentation
 The lungmask module for the lung segmentation can be installed using the following line of code:
 ```
@@ -42,16 +30,28 @@ Make sure to have torch installed in your system. Otherwise you can't use the lu
 ## Code
 The code for the Capsule Network implementation is adopted from <a href="https://keras.io/examples/cifar10_cnn_capsule/">here.</a>
 The brief desciption of the code's functionality is as follows:
+* The test data should be in the DICOM format, and all DICOM files corresponding to a CT scan should be located in one folder.
 * The code aims to test a CT scan using the COVID-FACT model.
 * The training code is not provided. However, the code to implement each stage of the model is available in the code
 * The outcome is in the binary (COVID-19, non-COVID) format.
-* The test data should be in the DICOM format, and all DICOM files corresponding to a CT scan should be located in one folder.
 
 Codes are available as the following list:
 
-* COVID-FACT_binary_test.py : Codes for testing a CT scan series
+* COVID-FACT_binary_test.py : Codes for testing a CT scan series (Set the "data_path" in the very begining of the code based on your data directoy.)
 * weights-stage1-final-91.h5 : Trained weight of the stage one
 * weights-stage2-final-99.h5 : Trained weight of the stage Two
+
+## Requirements
+* Tested with (tensorflow-gpu 2 and keras-gpu 2.2.4) - and (tensorflow 1.14.0 and keras 2.2.4)<br>
+-- Try tensorflow.keras instead of keras if it doesn't work in your system.
+* Python 3.6
+* PyTorch 1.4.0
+* Torch 1.5.1
+* PyDicom 1.4.2
+* lungmask
+* OpenCV
+* OS
+* Matplotlib
 
 
 ## Citation
