@@ -6,7 +6,7 @@ at the first stage and the second stage is responsible for classifying patients 
 
 COVID-FACT is fed with the segmented lung area as the input. In other words, instead of using an original chest CT image, first a <a href="https://github.com/JoHof/lungmask"> U-Net based segmentation model</a> is applied to extract the lung region, which is then provided as input to the COVID-FACT. Besides segmenting the lung regions, all images are normalized between 0 and 1, and resized from the original size of [512,512] to [256,256].
 
-The detailed COVID-Facts's structure and methodology is explained in detail at https://arxiv.org/abs/2010.16041 .
+<b>The detailed COVID-Facts's structure and methodology is explained in detail at</b> https://arxiv.org/abs/2010.16041 .
 
 <h3>Note : Please don’t use COVID-FACT as the self-diagnostic model without performing a clinical study and consulting with a medical specialist.</h3>
 COVID-FACT is not a replacement for clinical diagnostic tests and should not be used as a self-diagnosis tool to look for COVID-19 features without a clinical study at this stage. Our team is working on enhancing the performance and generalizing the model on multi-center datasets upon receiving more data from medical collaborators and scientific community. You can track new results and versions as they will be updated on this page.<br>
