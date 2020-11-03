@@ -25,7 +25,9 @@ For the detail description of the dataset, please refer to the <a href="https://
 * Tested with (tensorflow-gpu 2 and keras-gpu 2.2.4) - and (tensorflow 1.14.0 and keras 2.2.4)<br>
 -- Try tensorflow.keras instead of keras if it doesn't work in your system.
 * Python 3.6
+* PyDicom
 * OpenCV
+* OS
 * Matplotlib
 
 
