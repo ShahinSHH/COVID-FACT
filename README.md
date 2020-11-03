@@ -5,3 +5,5 @@ COVID-FACT proposes a two-stage fully-automated CT-scan based framework for iden
 at the first stage and the second stage is responsible for classifying patients into COVID and non-COVID cases. COVID-FACT detects slices with infection, and identifies positive COVID-19 cases using an in-house CT scan dataset, containing COVID-19, community acquired pneumonia, and normal cases.
 
 <img src="https://github.com/ShahinSHH/COVID-FACT/blob/main/Figures/method.jpg"/>
+
+COVID-FACT is fed with the segmented lung area as the input. In other words, instead of using an original chest CT image, first a <a href="https://github.com/JoHof/lungmask"> U-Net based segmentation model</a> is applied to extract the lung region, which is then provided as input to the COVID-FACT. Besides segmenting the lung area, all images are normalized between 0 and 1, and resized from the original size of [512,512] to [256,256].
