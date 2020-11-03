@@ -20,7 +20,7 @@ This dataset contains volumetric chest CT scans of 171 patients positive for COV
 For the detail description of the COVID-CT-MD dataset, please refer to the <a href="https://arxiv.org/abs/2009.14623">https://arxiv.org/abs/2009.14623</a>.
 
 ## Lung Segmentation
-The lungmask module for the lung segmentation can be installed using the following line of code:
+The lungmask module for the lung segmentation is adopted from <a href="https://github.com/JoHof/lungmask">here</a> and can be installed using the following line of code:
 ```
 pip install git+https://github.com/JoHof/lungmask
 ```
@@ -49,7 +49,7 @@ Codes are available as the following list:
 * Torch 1.5.1
 * PyDicom 1.4.2 (<a href="https://pydicom.github.io/pydicom/stable/tutorials/installation.html">Installation<a/>)
 * SimpleITK (<a href="https://simpleitk.readthedocs.io/en/v1.1.0/Documentation/docs/source/installation.html">Installation</a>)
-* lungmask
+* lungmask (<a href="https://github.com/JoHof/lungmask">Installation</a>)
 * OpenCV
 * OS
 * Numpy
