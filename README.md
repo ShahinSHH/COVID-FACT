@@ -42,7 +42,7 @@ Codes are available as the following list:
 * weights-stage2-final-99.h5 : Best model's weight for the second stage
 
 ## Requirements
-* Tested with (tensorflow-gpu 2 and keras-gpu 2.2.4) - and (tensorflow 1.14.0 and keras 2.2.4)<br>
+* Tested with (tensorflow-gpu 2 and keras-gpu 2.2.4) , and (tensorflow 1.14.0 and keras 2.2.4)<br>
 -- Try tensorflow.keras instead of keras if it doesn't work in your system.
 * Python 3.6
 * PyTorch 1.4.0
