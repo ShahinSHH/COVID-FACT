@@ -52,6 +52,7 @@ Codes are available as the following list:
 * lungmask
 * OpenCV
 * OS
+* Numpy
 * Matplotlib
 
 
