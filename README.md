@@ -13,4 +13,20 @@ COVID-FACT is not a replacement for clinical diagnostic tests and should not be 
 
 <img src="https://github.com/ShahinSHH/COVID-FACT/blob/main/Figures/method.jpg"/>
 
+## Dataset
+In order to train and test the COVID-FACT model, we used the publically available <a href="https://github.com/ShahinSHH/COVID-CT-MD">COVID-CT-MD dataset</a>.
+This dataset contains volumetric chest CT scans of 171 patients positive for COVID-19 infection, 60 patients with CAP (Community Acquired Pneumonia), and 76 normal patients. Slice-Level and Patient-Level labels are included in this dataset.
+
+As the main goal of this study is to identify positive COVID-19 cases, we binarized the labels as either positive or negative. In other words the two labels of normal, and CAP together form the negative class.
+
+For the detail description of the dataset, please refer to the <a href="https://arxiv.org/abs/2009.14623">https://arxiv.org/abs/2009.14623</a>.
+
+## Requirements
+* Tested with (tensorflow-gpu 2 and keras-gpu 2.2.4) - and (tensorflow 1.14.0 and keras 2.2.4)<br>
+-- Try tensorflow.keras instead of keras if it doesn't work in your system.
+* Python 3.6
+* OpenCV
+* Matplotlib
+
+
 
