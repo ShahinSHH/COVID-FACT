@@ -11,7 +11,7 @@ COVID-FACT is fed with the segmented lung area as the input. In other words, ins
 <h3>Note : Please don’t use COVID-FACT as the self-diagnostic model without performing a clinical study and consulting with a medical specialist.</h3>
 COVID-FACT is not a replacement for clinical diagnostic tests and should not be used as a self-diagnosis tool to look for COVID-19 features without a clinical study at this stage. Our team is working on enhancing the performance and generalizing the model on multi-center datasets upon receiving more data from medical collaborators and scientific community. You can track new results and versions as they will be updated on this page.<br>
 
-A sample of lung areas contibuting the most to the final output in COVID-FACT are shown via the generated heatmap usign GRAD-CAM algorithm in the image below.
+A sample of lung areas contibuting the most to the final output in COVID-FACT are shown usign the <a href="https://arxiv.org/abs/1610.02391">GRAD-CAM</a> algorithm in the following image.
 
 <img src="https://github.com/ShahinSHH/COVID-FACT/blob/main/Figures/heatmap1.jpg" width="500" height="350"/>
 
