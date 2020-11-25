@@ -13,7 +13,7 @@ COVID-FACT is not a replacement for clinical diagnostic tests and should not be 
 
 A sample of lung areas contibuting the most to the final output in COVID-FACT are shown via the generated heatmap usign GRAD-CAM algorithm in the image below.
 
-<img src="https://github.com/ShahinSHH/COVID-FACT/blob/main/Figures/heatmap1.jpg" width="350" height="500"/>
+<img src="https://github.com/ShahinSHH/COVID-FACT/blob/main/Figures/heatmap1.jpg" width="500" height="350"/>
 
 ## Dataset
 The publically available <a href="https://github.com/ShahinSHH/COVID-CT-MD">COVID-CT-MD dataset</a> is used to train/test the model.
