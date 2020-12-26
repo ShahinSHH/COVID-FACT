@@ -257,9 +257,9 @@ x = Conv2D(128, (3, 3), activation='relu')(x)
 x = Conv2D(128, (3, 3), activation='relu')(x)
 # # # # # # # # # # # # # # #
 x = Reshape((-1, 128))(x)
-x = Capsule(32, 16, 3, True)(x)  
-x = Capsule(32, 16, 3, True)(x)   
-capsule = Capsule(2, 16, 3, True)(x)
+x = Capsule(32, 16, 1, True)(x)  
+x = Capsule(32, 16, 1, True)(x)   
+capsule = Capsule(2, 16, 1, True)(x)
 output = Lambda(lambda z: K.sqrt(K.sum(K.square(z), 2)))(capsule)
 
 
@@ -282,8 +282,8 @@ x = Conv2D(64, (3, 3), activation='relu',trainable = True)(x)
 x = Dropout(0.2) (x)
 # # # # # # # # # # # # # # #
 x = Reshape((-1, 64))(x) 
-x = Capsule(16, 8, 3, True)(x)   
-capsule = Capsule(2, 16, 3, True)(x)
+x = Capsule(16, 8, 1, True)(x)   
+capsule = Capsule(2, 16, 1, True)(x)
 output = Lambda(lambda z: K.sqrt(K.sum(K.square(z), 2)))(capsule)
 
 
