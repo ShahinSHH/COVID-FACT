@@ -3,8 +3,7 @@
 """
 COVID-FACT binary test code implementation.
 
-!! Note: COVID-FACT framework is in the research stage. Use only for research ourposes at this time.
-Don't use COVID-FACT as a replacement of the clinical test and radiologist review.
+!! Note: COVID-FACT framework is not a replacement for clinical tests. The model is currently at the research phase. Use COVID-FACT only for research purposes.
 
 Created by: Shahin Heidarian, Msc. at Concordia University
 E-mail: s_idari@encs.concordia.ca
